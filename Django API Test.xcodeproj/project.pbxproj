@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9273CAB258EC632008B7A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9273CAA258EC632008B7A83 /* AppDelegate.swift */; };
+		D9273CAD258EC632008B7A83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9273CAC258EC632008B7A83 /* SceneDelegate.swift */; };
+		D9273CAF258EC632008B7A83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9273CAE258EC632008B7A83 /* ViewController.swift */; };
+		D9273CB2258EC632008B7A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9273CB0258EC632008B7A83 /* Main.storyboard */; };
+		D9273CB4258EC633008B7A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9273CB3258EC633008B7A83 /* Assets.xcassets */; };
+		D9273CB7258EC633008B7A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9273CB5258EC633008B7A83 /* LaunchScreen.storyboard */; };
+		D9273CC2258EC633008B7A83 /* Django_API_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9273CC1258EC633008B7A83 /* Django_API_TestTests.swift */; };
+		D9273CCD258EC633008B7A83 /* Django_API_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9273CCC258EC633008B7A83 /* Django_API_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9273CBE258EC633008B7A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9273C9F258EC632008B7A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9273CA6258EC632008B7A83;
+			remoteInfo = "Django API Test";
+		};
+		D9273CC9258EC633008B7A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9273C9F258EC632008B7A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9273CA6258EC632008B7A83;
+			remoteInfo = "Django API Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9273CA7258EC632008B7A83 /* Django API Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Django API Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9273CAA258EC632008B7A83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9273CAC258EC632008B7A83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D9273CAE258EC632008B7A83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9273CB1258EC632008B7A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9273CB3258EC633008B7A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9273CB6258EC633008B7A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9273CB8258EC633008B7A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9273CBD258EC633008B7A83 /* Django API TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Django API TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9273CC1258EC633008B7A83 /* Django_API_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Django_API_TestTests.swift; sourceTree = "<group>"; };
+		D9273CC3258EC633008B7A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9273CC8258EC633008B7A83 /* Django API TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Django API TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9273CCC258EC633008B7A83 /* Django_API_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Django_API_TestUITests.swift; sourceTree = "<group>"; };
+		D9273CCE258EC633008B7A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9273CA4258EC632008B7A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9273CBA258EC633008B7A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9273CC5258EC633008B7A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9273C9E258EC632008B7A83 = {
+			isa = PBXGroup;
+			children = (
+				D9273CA9258EC632008B7A83 /* Django API Test */,
+				D9273CC0258EC633008B7A83 /* Django API TestTests */,
+				D9273CCB258EC633008B7A83 /* Django API TestUITests */,
+				D9273CA8258EC632008B7A83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9273CA8258EC632008B7A83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9273CA7258EC632008B7A83 /* Django API Test.app */,
+				D9273CBD258EC633008B7A83 /* Django API TestTests.xctest */,
+				D9273CC8258EC633008B7A83 /* Django API TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9273CA9258EC632008B7A83 /* Django API Test */ = {
+			isa = PBXGroup;
+			children = (
+				D9273CAA258EC632008B7A83 /* AppDelegate.swift */,
+				D9273CAC258EC632008B7A83 /* SceneDelegate.swift */,
+				D9273CAE258EC632008B7A83 /* ViewController.swift */,
+				D9273CB0258EC632008B7A83 /* Main.storyboard */,
+				D9273CB3258EC633008B7A83 /* Assets.xcassets */,
+				D9273CB5258EC633008B7A83 /* LaunchScreen.storyboard */,
+				D9273CB8258EC633008B7A83 /* Info.plist */,
+			);
+			path = "Django API Test";
+			sourceTree = "<group>";
+		};
+		D9273CC0258EC633008B7A83 /* Django API TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9273CC1258EC633008B7A83 /* Django_API_TestTests.swift */,
+				D9273CC3258EC633008B7A83 /* Info.plist */,
+			);
+			path = "Django API TestTests";
+			sourceTree = "<group>";
+		};
+		D9273CCB258EC633008B7A83 /* Django API TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9273CCC258EC633008B7A83 /* Django_API_TestUITests.swift */,
+				D9273CCE258EC633008B7A83 /* Info.plist */,
+			);
+			path = "Django API TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9273CA6258EC632008B7A83 /* Django API Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9273CD1258EC633008B7A83 /* Build configuration list for PBXNativeTarget "Django API Test" */;
+			buildPhases = (
+				D9273CA3258EC632008B7A83 /* Sources */,
+				D9273CA4258EC632008B7A83 /* Frameworks */,
+				D9273CA5258EC632008B7A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Django API Test";
+			productName = "Django API Test";
+			productReference = D9273CA7258EC632008B7A83 /* Django API Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9273CBC258EC633008B7A83 /* Django API TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9273CD4258EC633008B7A83 /* Build configuration list for PBXNativeTarget "Django API TestTests" */;
+			buildPhases = (
+				D9273CB9258EC633008B7A83 /* Sources */,
+				D9273CBA258EC633008B7A83 /* Frameworks */,
+				D9273CBB258EC633008B7A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9273CBF258EC633008B7A83 /* PBXTargetDependency */,
+			);
+			name = "Django API TestTests";
+			productName = "Django API TestTests";
+			productReference = D9273CBD258EC633008B7A83 /* Django API TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9273CC7258EC633008B7A83 /* Django API TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9273CD7258EC633008B7A83 /* Build configuration list for PBXNativeTarget "Django API TestUITests" */;
+			buildPhases = (
+				D9273CC4258EC633008B7A83 /* Sources */,
+				D9273CC5258EC633008B7A83 /* Frameworks */,
+				D9273CC6258EC633008B7A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9273CCA258EC633008B7A83 /* PBXTargetDependency */,
+			);
+			name = "Django API TestUITests";
+			productName = "Django API TestUITests";
+			productReference = D9273CC8258EC633008B7A83 /* Django API TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9273C9F258EC632008B7A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D9273CA6258EC632008B7A83 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D9273CBC258EC633008B7A83 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D9273CA6258EC632008B7A83;
+					};
+					D9273CC7258EC633008B7A83 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D9273CA6258EC632008B7A83;
+					};
+				};
+			};
+			buildConfigurationList = D9273CA2258EC632008B7A83 /* Build configuration list for PBXProject "Django API Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9273C9E258EC632008B7A83;
+			productRefGroup = D9273CA8258EC632008B7A83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9273CA6258EC632008B7A83 /* Django API Test */,
+				D9273CBC258EC633008B7A83 /* Django API TestTests */,
+				D9273CC7258EC633008B7A83 /* Django API TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9273CA5258EC632008B7A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9273CB7258EC633008B7A83 /* LaunchScreen.storyboard in Resources */,
+				D9273CB4258EC633008B7A83 /* Assets.xcassets in Resources */,
+				D9273CB2258EC632008B7A83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9273CBB258EC633008B7A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9273CC6258EC633008B7A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9273CA3258EC632008B7A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9273CAF258EC632008B7A83 /* ViewController.swift in Sources */,
+				D9273CAB258EC632008B7A83 /* AppDelegate.swift in Sources */,
+				D9273CAD258EC632008B7A83 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9273CB9258EC633008B7A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9273CC2258EC633008B7A83 /* Django_API_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9273CC4258EC633008B7A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9273CCD258EC633008B7A83 /* Django_API_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9273CBF258EC633008B7A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9273CA6258EC632008B7A83 /* Django API Test */;
+			targetProxy = D9273CBE258EC633008B7A83 /* PBXContainerItemProxy */;
+		};
+		D9273CCA258EC633008B7A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9273CA6258EC632008B7A83 /* Django API Test */;
+			targetProxy = D9273CC9258EC633008B7A83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9273CB0258EC632008B7A83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9273CB1258EC632008B7A83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9273CB5258EC633008B7A83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9273CB6258EC633008B7A83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9273CCF258EC633008B7A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9273CD0258EC633008B7A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9273CD2258EC633008B7A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYLV7H6AAY;
+				INFOPLIST_FILE = "Django API Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jchenvert.Django-API-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9273CD3258EC633008B7A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYLV7H6AAY;
+				INFOPLIST_FILE = "Django API Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jchenvert.Django-API-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9273CD5258EC633008B7A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYLV7H6AAY;
+				INFOPLIST_FILE = "Django API TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jchenvert.Django-API-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Django API Test.app/Django API Test";
+			};
+			name = Debug;
+		};
+		D9273CD6258EC633008B7A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYLV7H6AAY;
+				INFOPLIST_FILE = "Django API TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jchenvert.Django-API-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Django API Test.app/Django API Test";
+			};
+			name = Release;
+		};
+		D9273CD8258EC633008B7A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYLV7H6AAY;
+				INFOPLIST_FILE = "Django API TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jchenvert.Django-API-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Django API Test";
+			};
+			name = Debug;
+		};
+		D9273CD9258EC633008B7A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYLV7H6AAY;
+				INFOPLIST_FILE = "Django API TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jchenvert.Django-API-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Django API Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9273CA2258EC632008B7A83 /* Build configuration list for PBXProject "Django API Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9273CCF258EC633008B7A83 /* Debug */,
+				D9273CD0258EC633008B7A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9273CD1258EC633008B7A83 /* Build configuration list for PBXNativeTarget "Django API Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9273CD2258EC633008B7A83 /* Debug */,
+				D9273CD3258EC633008B7A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9273CD4258EC633008B7A83 /* Build configuration list for PBXNativeTarget "Django API TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9273CD5258EC633008B7A83 /* Debug */,
+				D9273CD6258EC633008B7A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9273CD7258EC633008B7A83 /* Build configuration list for PBXNativeTarget "Django API TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9273CD8258EC633008B7A83 /* Debug */,
+				D9273CD9258EC633008B7A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9273C9F258EC632008B7A83 /* Project object */;
+}
