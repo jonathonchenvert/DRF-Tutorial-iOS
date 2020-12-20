@@ -60,7 +60,7 @@
 		D9273CC8258EC633008B7A83 /* Django API TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Django API TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9273CCC258EC633008B7A83 /* Django_API_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Django_API_TestUITests.swift; sourceTree = "<group>"; };
 		D9273CCE258EC633008B7A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9273CE4258EC76D008B7A83 /* Django API Fetch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Django API Fetch.playground"; path = "../../../../Library/Autosave Information/Django API Fetch.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D9273CF0258FADA1008B7A83 /* Django API Fetch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Django API Fetch.playground"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F214F5965B73375417B3AD86 /* Pods-Django API TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Django API TestTests.release.xcconfig"; path = "Target Support Files/Pods-Django API TestTests/Pods-Django API TestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +130,7 @@
 		D9273CA9258EC632008B7A83 /* Django API Test */ = {
 			isa = PBXGroup;
 			children = (
-				D9273CE4258EC76D008B7A83 /* Django API Fetch.playground */,
+				D9273CF0258FADA1008B7A83 /* Django API Fetch.playground */,
 				D9273CAA258EC632008B7A83 /* AppDelegate.swift */,
 				D9273CAC258EC632008B7A83 /* SceneDelegate.swift */,
 				D9273CAE258EC632008B7A83 /* ViewController.swift */,
